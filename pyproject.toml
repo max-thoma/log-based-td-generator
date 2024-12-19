@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "edgellm"
+version = "0.1.0"
+description = ""
+authors = ["Max Thoma"]
+readme = "README.md"
+license = "BSD-3-Clause"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+openai = "^1.35.10"
+paho-mqtt = "^2.1.0"
+python-dotenv = "^1.0.1"
+json-e = "^4.7.1"
+pydantic = "^2.8.2"
+tiktoken = "^0.7.0"
+rouge = "^1.0.1"
+numpy = "^2.0.1"
+instructor = "^1.6.4"
+rapidfuzz = "^3.10.1"
+matplotlib = "^3.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
